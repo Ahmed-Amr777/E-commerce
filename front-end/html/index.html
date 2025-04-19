@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SOUQ.COM</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- <link rel="stylesheet" href="/css/hi.css" /> -->
+  </head>
+  <body class="body1">
+    <nav>
+      <div class="navTop">
+        <div class="logo">
+          <a class="logo" href="/">
+            <img
+              src="../pictures/souq_background.png"
+              alt="logo"
+              width="70px"
+            />
+          </a>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search souq.com"
+            class="searchInput"
+          />
+          <img
+            src="../pictures/search2.png"
+            width="30"
+            height="25"
+            alt=""
+            class="searchIcon"
+          />
+        </div>
+        <div class="navItem">
+          <button class="login-btn">LOG IN</button>
+        </div>
+      </div>
+      <div class="navBottom">
+        <a class="menuItems" href="supermarket">Supermarket</a>
+        <span class="menuItems">|</span>
+        <a class="menuItems" href="clothes">Clothes</a>
+        <span class="menuItems">|</span>
+        <a class="menuItems" href="electronics">Electronics</a>
+        <span class="menuItems" id="myCartSpan">|</span>
+        <a class="menuItems" id="myCart" href="cart">Shopping cart</a>
+        <span class="menuItems">|</span>
+        <a class="menuItems" id="myProfile" href="#">My profile</a>
+      </div>
+    </nav>
+    <header>
+      <h1>SOUQ.COM ONE OF THE BEST SHOPPING EXPERINCES</h1>
+    </header>
+    <marquee>60% off Sale until 30 December</marquee>
+    <div class="container" id="preview-item-container">
+      <section id="deals">
+        <h2>Today's deals</h2>
+        <p>Here is some information about it...</p>
+
+        <!-- working on -->
+        <!-- <div class="preview-item-container" id="preview-item-container"> -->
+        <!-- Products will be dynamically loaded here -->
+        <!-- </div> -->
+
+        <a class="pageLink" href="deals">Latest deals</a>
+      </section>
+      <section class="category-btn" id="supermarket">
+        <h2>Supermarket essentials</h2>
+        <button class="slider-button prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="preview-item-container">
+          <!-- Product cards dynamically loaded here -->
+        </div>
+        <button class="slider-button next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <a class="pageLink" href="supermarket">Shop now</a>
+      </section>
+      <section class="category-btn" id="clothes">
+        <h2>Clothes</h2>
+        <button class="slider-button prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="preview-item-container">
+          <!-- Product cards dynamically loaded here -->
+        </div>
+        <button class="slider-button next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <a class="pageLink" href="clothes">Shop now</a>
+      </section>
+      <section class="category-btn" id="electronics">
+        <h2>Electronics</h2>
+        <button class="slider-button prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="preview-item-container">
+          <!-- Product cards dynamically loaded here -->
+        </div>
+        <button class="slider-button next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <a class="pageLink" href="electronics">Shop now</a>
+      </section>
+    </div>
+    <div class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="aboutus">About Us</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="supermarket">Supermarket</a></li>
+            <li><a href="clothes">Clothes</a></li>
+            <li><a href="electronics">Electronics</a></li>
+            <li><a href="#">Popular Designs</a></li>
+            <li><a href="#">New Uploads</a></li>
+            <li><a href="#">Art Skills</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Let us Help You</h4>
+          <ul class="links">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">shipping & Delivery</a></li>
+            <li><a href="#">Returns & Replacment</a></li>
+            <li><a href="#">Souq.com App download</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="footer-col">
+            <h4>2024 Made by Omar Mohamed. All Rights Reserved</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/javascript/search.js"></script>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/login-user.js"></script>
+  </body>
+</html>

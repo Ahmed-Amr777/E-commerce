@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buyer Info</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/buyer.css" />
+    <style>
+      #user-info,
+      #address-info,
+      #credit-info,
+      #orders-info {
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navTop">
+        <div class="logo">
+          <a class="logo" href="/">
+            <img
+              src="../pictures/souq_background.png"
+              alt="logo"
+              width="70px"
+            />
+          </a>
+        </div>
+
+        <div class="navItem">
+          <button class="logout-btn">LOG OUT</button>
+        </div>
+      </div>
+      <div class="navBottom">
+        <a class="menuItems" href="supermarket">Supermarket</a>
+        <span class="menuItems">|</span>
+        <a class="menuItems" href="clothes">Clothes</a>
+        <span class="menuItems">|</span>
+        <a class="menuItems" href="electronics">Electronics</a>
+        <span class="menuItems" id="myCartSpan">|</span>
+        <a class="menuItems" id="myCart" href="cart">Shopping cart</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="buyerinfo">
+        <h1>Buyer Info</h1>
+        <div id="user-info"></div>
+        <div id="address-info"></div>
+        <div id="credit-info"></div>
+      </div>
+      <div id="orders-info"></div>
+    </div>
+    <div class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="aboutus">About Us</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="supermarket">Supermarket</a></li>
+            <li><a href="clothes">Clothes</a></li>
+            <li><a href="electronics">Electronics</a></li>
+            <li><a href="#">Popular Designs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Let us Help You</h4>
+          <ul class="links">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">shipping & Delivery</a></li>
+            <li><a href="#">Returns & Replacment</a></li>
+            <li><a href="#">Souq.com App download</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="footer-col">
+            <h4>2024 Made by Omar Mohamed. All Rights Reserved</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/javascript/buyer.js"></script>
+  </body>
+</html>
